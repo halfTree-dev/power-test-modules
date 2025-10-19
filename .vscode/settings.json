@@ -1,0 +1,39 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.espIdfPathWin": "C:\\Users\\27292\\esp\\v5.5.1\\esp-idf",
+  "idf.pythonInstallPath": "C:\\Users\\27292\\.espressif\\tools\\idf-python\\3.11.2\\python.exe",
+  "idf.openOcdConfigs": [
+    "board/esp32p4-builtin.cfg"
+  ],
+  "idf.portWin": "COM8",
+  "idf.toolsPathWin": "C:\\Users\\27292\\.espressif",
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32p4"
+  },
+  "clangd.path": "C:\\Users\\27292\\.espressif\\tools\\esp-clang\\esp-19.1.2_20250312\\esp-clang\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=C:\\Users\\27292\\.espressif\\tools\\riscv32-esp-elf\\esp-14.2.0_20241119\\riscv32-esp-elf\\bin\\riscv32-esp-elf-gcc.exe",
+    "--compile-commands-dir=d:\\Projects\\WorkSpace\\electronic-contest\\power-test-modules\\build"
+  ],
+  "idf.flashType": "UART",
+  "files.associations": {
+    "gpio_control.h": "c",
+    "global_params.h": "c",
+    "pwm_control.h": "c",
+    "mcpwm.h": "c",
+    "stdio.h": "c",
+    "mcpwm_prelude.h": "c",
+    "mcpwm_types.h": "c",
+    "esp_log.h": "c",
+    "esp_timer.h": "c",
+    "gpio.h": "c",
+    "uart_control.h": "c",
+    "i2c_control.h": "c",
+    "spi_led_control.h": "c",
+    "spi_master.h": "c",
+    "spi_control.h": "c",
+    "stdint.h": "c",
+    "i2c_ina226_driver.h": "c"
+  }
+}
