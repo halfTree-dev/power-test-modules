@@ -5,7 +5,7 @@
 #include "driver/mcpwm_types.h"
 #include "esp_log.h"
 
-#define MCPWM_RESOLUTION_HZ (1000000) // 1 MHz 分辨率
+#define MCPWM_RESOLUTION_HZ (30000000) // 30 MHz 分辨率
 
 typedef struct {
     int group_id;

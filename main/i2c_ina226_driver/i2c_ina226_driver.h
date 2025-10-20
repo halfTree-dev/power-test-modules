@@ -43,8 +43,8 @@
 // 其中 Current_LSB = Max_Current / 32768，电流单位为安培
 // Rshunt 是采样电阻值，单位为欧姆
 
-#define INA226_CONFIG_VALUE  0x4527  // 配置寄存器默认值
-#define SHUNT_RESISTOR_OHMS  0.1f    // 分流电阻 0.1Ω
+#define INA226_CONFIG_VALUE  0x4127  // 配置寄存器：连续测量、4次平均、1.1ms转换时间
+#define SHUNT_RESISTOR_OHMS  0.01f    // 分流电阻 10mΩ
 #define MAX_CURRENT_A        3.2768f // 最大电流 3.2768A
 
 #define SHUNT_LSB            0.0025f // 分流电压分辨率 2.5μV/bit，最终输出单位为 mV
